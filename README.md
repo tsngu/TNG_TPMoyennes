@@ -7,6 +7,15 @@ Ayant codé le projet sur Ubuntu et donc VSCode, j'ai repris le fichier .sln du 
 Sur ubuntu et depuis un terminal, entrez dans le dossier TNG_TPMoyennes et lancez le programme avec :
 `dotnet run`
 
+Les résulats affichés devraient être tels que :
+```BASH
+Sacha TOUILLE, Moyenne en Anglais : 7.31
+Sacha TOUILLE, Moyenne Generale : 8.68
+Classe de 6eme A, Moyenne en Anglais : 11.23
+Classe de 6eme A, Moyenne Generale : 11.8
+```
+avec les moyennes qui varient car générées aléatoirement et tronquée au-delà du second chiffre après la virgule.
+
 ## Rappel des consignes :
 
 Pour une école, réalisez un programme qui permet de calculer :
